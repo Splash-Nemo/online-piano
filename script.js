@@ -33,3 +33,12 @@ pianoKeys.forEach(key => {
 document.addEventListener("keydown", (e) => {
     clickedKey(e.key);
 }) 
+
+const keysToggler = document.querySelector(".toggler");
+
+keysToggler.addEventListener("click", () => {
+    const keys = document.querySelectorAll(".key span");
+    keys.forEach(key => {
+        key.classList.toggle("hide");
+    });
+});
