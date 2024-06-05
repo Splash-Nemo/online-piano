@@ -42,3 +42,10 @@ keysToggler.addEventListener("click", () => {
         key.classList.toggle("hide");
     });
 });
+
+const changeVolume = (e) => {
+    audio.volume = e.target.value;
+}
+
+const volumeSlider = document.querySelector(".volume input");
+volumeSlider.addEventListener("input", changeVolume);
