@@ -3,11 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Online Piano</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <div class="piano">
+        <div class="wrapper">
+            <header>
+                Splash-Nemo
+            </header>
+            <div class="volume">
+                Volume <span><input type="range" class="volume-slider" min="0" max="1" value="0.5" step="any"></span>
+            </div>
+            <div class="show-keys">
+                Show-Keys <span> <input type="checkbox" checked> </span>
+            </div>
+        </div>
+
+        <div class="keys-container">
+            <ul class="keys-list">
+                <li class="key white">A</li>
+                <li class="key black">W</li>
+                <li class="key white">S</li>
+                <li class="key black">E</li>
+                <li class="key white">D</li>
+                <li class="key white">F</li>
+                <li class="key black">T</li>
+                <li class="key white">G</li>
+                <li class="key black">Y</li>
+                <li class="key white">H</li>
+                <li class="key black">U</li>
+                <li class="key white">J</li>
+                <li class="key white">K</li>
+                <li class="key black">O</li>
+                <li class="key white">L</li>
+                <li class="key black">P</li>
+                <li class="key white">;</li>
+            </ul>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
