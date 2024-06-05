@@ -136,11 +136,11 @@ header{
     height: 140px;
 }
 
-.white:active{
+.white.active{
     box-shadow: inset -5px 5px 20px rgb(215, 214, 214);
     background: linear-gradient(to bottom,#fff 0%, #eee 100%);
 }
 
-.black:active{
+.black.active{
     background: linear-gradient(#000, #333);
 }
